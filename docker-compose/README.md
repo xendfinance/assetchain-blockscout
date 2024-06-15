@@ -60,11 +60,11 @@ In order to stop launched containers, run `docker-compose -d -f config_file.yml 
 
 You can adjust BlockScout environment variables:
 
-- for backend in `./envs/common-blockscout.env`
-- for frontend in `./envs/common-frontend.env`
-- for stats service in `./envs/common-stats.env`
-- for visualizer in `./envs/common-visualizer.env`
-- for user-ops-indexer in `./envs/common-user-ops-indexer.env`
+- for backend in `./assetchain-envs/common-blockscout.env`
+- for frontend in `./assetchain-envs/common-frontend.env`
+- for stats service in `./assetchain-envs/common-stats.env`
+- for visualizer in `./assetchain-envs/common-visualizer.env`
+- for user-ops-indexer in `./assetchain-envs/common-user-ops-indexer.env`
 
 Descriptions of the ENVs are available
 
