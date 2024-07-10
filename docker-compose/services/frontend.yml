@@ -2,8 +2,7 @@ version: '3.9'
 
 services:
   frontend:
-    image: frontend
-    pull_policy: always
+    image: frontendscout
     platform: linux/amd64
     restart: always
     container_name: 'frontend'
