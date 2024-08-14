@@ -31,8 +31,8 @@ services:
     environment:
         ETHEREUM_JSONRPC_VARIANT: 'ganache'
         ETHEREUM_JSONRPC_WS_URL: ws://host.docker.internal:8545/
-        INDEXER_DISABLE_INTERNAL_TRANSACTIONS_FETCHER: 'true'
-        INDEXER_DISABLE_PENDING_TRANSACTIONS_FETCHER: 'true'
+        INDEXER_DISABLE_INTERNAL_TRANSACTIONS_FETCHER: 'false'
+        INDEXER_DISABLE_PENDING_TRANSACTIONS_FETCHER: 'false'
         CHAIN_ID: '1337'
 
   visualizer:
