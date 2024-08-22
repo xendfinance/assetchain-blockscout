@@ -42,7 +42,7 @@ services:
       - db:database
     environment:
         ETHEREUM_JSONRPC_HTTP_URL: https://enugu-rpc.assetchain.org/
-        ETHEREUM_JSONRPC_TRACE_URL: https://enugu-rpc.assetchain.org/
+        ETHEREUM_JSONRPC_TRACE_URL: https://tracerpc-testnet.assetchain.org/
         ETHEREUM_JSONRPC_WS_URL: wss://enugu-rpc.assetchain.org/
         CHAIN_ID: '42421'
 
