@@ -64,5 +64,5 @@ dump.rdb
 *.env.example
 *.env.local
 *.env.staging
-/docker-compose/assetchain-envs*/*.env
+/docker-compose/assetchain-env.*/*.env
 /docker-compose/proxy/default.*
